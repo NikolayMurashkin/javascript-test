@@ -1,5 +1,5 @@
-import { buildWebpack } from 'config/build/buildWebpack';
-import { BuildMode } from 'config/build/types/types';
+import { buildWebpack } from './config/build/buildWebpack';
+import { BuildMode } from './config/build/types/types';
 import path from 'node:path';
 import { Configuration } from 'webpack';
 
