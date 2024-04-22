@@ -1,0 +1,1 @@
+export type {Questions} from './test'

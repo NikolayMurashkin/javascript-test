@@ -1,2 +1,2 @@
-export {default as Home} from './Home/Home'
-export {TestAsync as Test} from './Test/Test.async'
+export {default as HomePage} from './HomePage/ui/HomePage'
+export {TestAsync as TestPage} from './TestPage/ui/TestPage.async'

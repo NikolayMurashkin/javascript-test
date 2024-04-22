@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { Home, Test } from './pages';
+import { HomePage, TestPage } from './pages';
 
 const root = document.getElementById('root');
 
@@ -14,13 +14,13 @@ const container = createRoot(root);
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Home />,
+        element: <HomePage />,
     },
     {
         path: '/test',
         element: (
             <Suspense fallback={<div>Loading...</div>}>
-                <Test />
+                <TestPage />
             </Suspense>
         ),
     },
